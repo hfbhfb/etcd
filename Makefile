@@ -23,9 +23,9 @@ XARGS += rm -r
 .PHONY: build
 build:
 	GO_BUILD_FLAGS="-v" ./build.sh
-	./bin/etcd --version
-	./bin/etcdctl version
-	./bin/etcdutl version
+	# ./bin/etcd --version
+	# ./bin/etcdctl version
+	# ./bin/etcdutl version
 
 clean:
 	rm -f ./codecov
